@@ -1,14 +1,13 @@
 Package: bcc
-Title: What the Package Does (One Line, Title Case)
+Title: Beta Control Charts
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+     c(person("Ângelo", "Santanna", role = c("aut", "cre"),
+                     email = "angelo.santanna@ufba.br"),
+              person("Daniel", "Cerqueira", role = c("aut", "ctb"),
+                     email = "danielcerqueira@live.com"))
+Description: Applies beta control charts to defined values based on proportion or not.Thanks to Luca Scrucca for the qcc package.
+License: GPL
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
