@@ -4,7 +4,7 @@
 #'
 #'
 #'
-#' @export
+#' @export bcc
 #' @import qcc
 #' @import svDialogs
 
