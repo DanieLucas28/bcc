@@ -6,7 +6,7 @@
 #'
 #' @export bcc
 #' @import qcc
-#' @import svDialogs
+
 
 bcc<-function(data, sizes){
 
