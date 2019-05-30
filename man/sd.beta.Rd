@@ -4,7 +4,7 @@
 \alias{sd.beta}
 \title{sd.beta}
 \usage{
-sd.beta(data, sizes)
+sd.beta(data, sizes, ...)
 }
 \arguments{
 \item{data, sizes}{Numeric vector}

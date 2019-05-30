@@ -4,7 +4,7 @@
 \alias{limits.beta.prop}
 \title{limits.beta.prop}
 \usage{
-limits.beta.prop(center, std.dev, sizes, conf)
+limits.beta.prop(center, std.dev, sizes, conf, ...)
 }
 \arguments{
 \item{center, std.dev, conf}{A number}
