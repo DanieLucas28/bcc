@@ -8,7 +8,7 @@
 #' @param center,std.dev,conf A number
 #' @param sizes Numeric vector
 
-limits.beta.prop <- function(center, std.dev, sizes, conf)
+limits.beta.prop <- function(center, std.dev, sizes, conf, ...)
 {
   if (conf >= 1)
   {
