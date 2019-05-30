@@ -5,6 +5,7 @@
 #'
 #'
 #' @export sd.beta
+#' @param data,sizes Numeric vector
 
 sd.beta <- function(data, sizes, ...)
 {

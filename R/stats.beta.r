@@ -5,6 +5,8 @@
 #'
 #'
 #' @export stats.beta
+#' @param data,sizes Numeric vectors
+
 
 stats.beta <- function(data, sizes)
 {

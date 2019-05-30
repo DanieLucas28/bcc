@@ -5,6 +5,10 @@
 #'
 #'
 #' @export limits.beta
+#' @import methods
+#' @import stats
+#' @param center,std.dev,conf A number
+#' @param sizes Numeric vector
 
 limits.beta <- function(center, std.dev, sizes, conf)
 {

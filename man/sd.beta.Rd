@@ -6,6 +6,9 @@
 \usage{
 sd.beta(data, sizes, ...)
 }
+\arguments{
+\item{data, sizes}{Numeric vector}
+}
 \description{
 modified qcc functions
 }

@@ -6,6 +6,9 @@
 \usage{
 stats.beta(data, sizes)
 }
+\arguments{
+\item{data, sizes}{Numeric vectors}
+}
 \description{
 modified qcc functions
 }

@@ -5,6 +5,8 @@
 #'
 #'
 #' @export sd.beta.prop
+#' @param data,sizes Numeric vector
+#' @param std.dev A number
 
 sd.beta.prop <- function(data, sizes, std.dev)
 {

@@ -6,6 +6,11 @@
 \usage{
 sd.beta.prop(data, sizes, std.dev)
 }
+\arguments{
+\item{data, sizes}{Numeric vector}
+
+\item{std.dev}{A number}
+}
 \description{
 modified qcc functions
 }

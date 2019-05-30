@@ -5,6 +5,8 @@
 #'
 #'
 #' @export limits.beta.prop
+#' @param center,std.dev,conf A number
+#' @param sizes Numeric vector
 
 limits.beta.prop <- function(center, std.dev, sizes, conf, ...)
 {

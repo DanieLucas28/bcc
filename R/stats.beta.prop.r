@@ -5,6 +5,7 @@
 #'
 #'
 #' @export stats.beta.prop
+#' @param data,sizes Numeric vector
 
 stats.beta.prop <- function(data, sizes)
 {

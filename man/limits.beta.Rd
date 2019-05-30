@@ -6,6 +6,11 @@
 \usage{
 limits.beta(center, std.dev, sizes, conf)
 }
+\arguments{
+\item{center, std.dev, conf}{A number}
+
+\item{sizes}{Numeric vector}
+}
 \description{
 modified qcc functions
 }
