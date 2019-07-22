@@ -4,8 +4,6 @@
 #'
 #'
 #'
-#' @export stats.beta
-#' @param data,sizes Numeric vectors
 
 
 # Western Electric rules

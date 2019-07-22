@@ -4,7 +4,9 @@
 \alias{bcc}
 \title{Beta Control Charts}
 \usage{
-bcc(data, sizes, type)
+bcc(data, type = c("beta", "beta.prop"), sizes, center, std.dev, limits,
+  data.name, labels, newdata, newsizes, newdata.name, newlabels,
+  nsigmas = 3, confidence.level, rules = c(1, 4), plot = TRUE, ...)
 }
 \arguments{
 \item{data, sizes}{Numeric vector}
