@@ -2,7 +2,7 @@ Package: bcc
 Title: Beta Control Charts
 Version: 0.0.0.9000
 Authors@R: 
-     c(person("Ã‚ngelo", "Santanna", role = "aut",
+     c(person("Ãngelo", "Santanna", role = "aut",
                      email = "angelo.santanna@ufba.br"),
               person("Daniel", "Cerqueira", role = c("aut", "cre"),
                      email = "danielcerqueira@live.com"))
