@@ -2,7 +2,7 @@ Package: bcc
 Title: Beta Control Charts
 Version: 0.0.0.9000
 Authors@R: 
-     c(person("Ãngelo", "Santanna", role = "aut",
+     c(person("Angelo", "Santanna", role = "aut",
                      email = "angelo.santanna@ufba.br"),
               person("Daniel", "Cerqueira", role = c("aut", "cre"),
                      email = "danielcerqueira@live.com"))
@@ -12,6 +12,5 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
 Imports: 
-    qcc,
     methods,
     stats

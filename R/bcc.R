@@ -5,7 +5,7 @@
 #'
 #'
 #' @export bcc
-#' @import qcc
+#'
 #' @references SANT'ANNA, Ângelo M. O; CATEN, Carla Schwengberten. Beta control charts for monitoring fraction data. Expert Systems With Applications, p. 10236-10243. 1 set. 2012.
 #' @param data,sizes Numeric vector
 #' @param type A number

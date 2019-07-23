@@ -6,9 +6,6 @@
 \usage{
 qccRules(object, rules = object$rules)
 }
-\arguments{
-\item{data, sizes}{Numeric vectors}
-}
 \description{
 modified qcc functions
 }
