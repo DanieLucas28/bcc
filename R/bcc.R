@@ -10,20 +10,28 @@
 
 
 
-bcc<-function(data, sizes, type){
+bcc<-function(data, type = c("1", "2"),
+              sizes, center, std.dev, limits, data.name, labels, newdata, newsizes,
+              newdata.name, newlabels, nsigmas = 3, confidence.level=0.9, rules = shewhart.rules,
+              plot = TRUE, ...){
 
   res <- type
 
-  #caso com n=x, com x=n?mero inteiro
-  if (res == "1"){
+  if (type == 1){
 
-    qcc(data = data, sizes = sizes, type = "beta", confidence.level = 0.9)
+    qcc(data = data, type = "beta",
+        sizes = sizes, center = center, std.dev = std.dev, limits = limits, data.name = data.name, labels = labels, newdata = newdata, newsizes = newsizes,
+        newdata.name = newdata.name, newlabels = newlabels, nsigmas = 3, confidence.level = confidence.level, rules = shewhart.rules,
+        plot = TRUE, ...)
   }
 
-  ####caso com propor??o
-  if (res == "2"){
 
-    qcc(data = data, type= "beta.prop", confidence.level = 0.9)
+  if (type == 2){
+
+    qcc(data = data, type = "beta.prop",
+        center = center, std.dev = std.dev, limits = limits, data.name = data.name, labels = labels, newdata = newdata, newsizes = newsizes,
+        newdata.name = newdata.name, newlabels = newlabels, nsigmas = 3, confidence.level = confidence.level, rules = shewhart.rules,
+        plot = TRUE, ...)
 
   }
 }

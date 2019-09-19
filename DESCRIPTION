@@ -6,7 +6,7 @@ Authors@R:
                      email = "angelo.santanna@ufba.br"),
               person("Daniel", "Cerqueira", role = c("aut", "cre"),
                      email = "danielcerqueira@live.com"))
-Description: Applies beta control charts to defined values based on proportion or not. Thanks to Luca Scrucca for the qcc package.
+Description: Applies beta control charts to defined values. Thanks to Luca Scrucca for the qcc package.
 License: GPL
 Encoding: UTF-8
 LazyData: true
