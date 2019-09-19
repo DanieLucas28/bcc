@@ -4,18 +4,8 @@
 \alias{bcc}
 \title{Beta Control Charts}
 \usage{
-bcc(data, type = c("beta", "beta.prop"), sizes, center, std.dev, limits,
-  data.name, labels, newdata, newsizes, newdata.name, newlabels,
-  nsigmas = 3, confidence.level, rules = c(1, 4), plot = TRUE, ...)
-}
-\arguments{
-\item{data, sizes}{Numeric vector}
-
-\item{type}{A number}
+bcc(data, sizes, type)
 }
 \description{
-p-Charts and np-Charts are commonly used in monitoring variables of the fraction type and these charts assume that the monitored variables are binomially distributed. The Beta Chart presents the control limits based on the Beta probability distribution. It was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the control charts analyzed for monitoring fraction data.
-}
-\references{
-SANT'ANNA, Ângelo M. O; CATEN, Carla Schwengberten. Beta control charts for monitoring fraction data. Expert Systems With Applications, p. 10236-10243. 1 set. 2012.
+p-Charts and np-Charts are commonly used in monitoring variables of the fraction type and these charts assume that the monitored variables are binomially distributed. In this paper we propose a new control chart called Beta Charts, for monitoring fraction data (p). The Beta Chart presents the control limits based on the Beta probability distribution. It was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the control charts analyzed for monitoring fraction data.
 }
