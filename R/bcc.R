@@ -22,12 +22,20 @@
 #' @param newlabels a character vector of labels for each new group defined in the argument \code{newdata}.
 #' @param nsigmas a numeric value specifying the number of sigmas to use for computing control limits. It is ignored when the \code{confidence.level} argument is  provided.
 #' @param confidence.level a numeric value between 0 and 1 specifying the confidence level of the computed probability limits.
-#' @param rules a value or a vector of values specifying the rules to apply to the chart. See \code{\link{https://luca-scr.github.io/qcc/reference/rules.html}} for possible values and their meaning.
+#' @param rules a value or a vector of values specifying the rules to apply to the chart. See \link{https://luca-scr.github.io/qcc/reference/rules.html} for possible values and their meaning.
 #' @param plot logical. If \code{TRUE} a Shewhart chart is plotted.
 #' @param ... further arguments are ignored.
 #'
-#' @references SANT'ANNA, Ângelo M. O; CATEN, Carla Schwengberten. Beta control charts for monitoring fraction data. Expert Systems With Applications, p. 10236-10243. 1 set. 2012.
+#'
+#' @references SANT'ANNA, Ângelo M. O; CATEN, Carla Schwengberten. Beta control charts forsave monitoring fraction data. Expert Systems With Applications, p. 10236-10243. 1 set. 2012.
 #' @references Scrucca, L. (2004). qcc: an R package for quality control charting and statistical process control. \emph{R News} 4/1, 11-17.
+#'
+#'
+#'@examples
+#'load(Drapper1998)
+#'bcc(data = Drapper1998, type = "2")
+#'
+#'
 #'
 
 
