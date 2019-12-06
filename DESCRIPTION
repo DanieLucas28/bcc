@@ -1,6 +1,6 @@
 Package: bcc
 Title: Beta Control Charts
-Version: 0.0.0.9000
+Version: 1.0
 Authors@R: 
      c(person("Ângelo", "Santanna", role = "aut",
                      email = "angelo.santanna@ufba.br"),
