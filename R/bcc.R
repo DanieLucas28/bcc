@@ -10,6 +10,7 @@
 #' @import stats
 #' @param data a data frame, a matrix or a vector containing observed data for the variable to chart. Each row of a data frame or a matrix, and each value of a vector, refers to a sample or ''rationale group''.
 #' @param type a character string specifying the group statistics to compute. There are two possible types, 1 for discrete data and 2 for continuous data.
+#' @param center a value specifying the center of group statistics or the ''target'' value of the process.
 #' @param sizes a value or a vector of values specifying the sample sizes associated with each group. If data is continuous this parameter should be ignored
 #' @param std.dev a value or an available method specifying the within-group standard deviation(s) of the process.
 #' @param limits a two-values vector specifying control limits.
@@ -21,7 +22,7 @@
 #' @param newlabels a character vector of labels for each new group defined in the argument \code{newdata}.
 #' @param nsigmas a numeric value specifying the number of sigmas to use for computing control limits. It is ignored when the \code{confidence.level} argument is  provided.
 #' @param confidence.level a numeric value between 0 and 1 specifying the confidence level of the computed probability limits.
-#' @param rules a value or a vector of values specifying the rules to apply to the chart. See \code{\link{qccRules}} for possible values and their meaning.
+#' @param rules a value or a vector of values specifying the rules to apply to the chart. See \code{\link{https://luca-scr.github.io/qcc/reference/rules.html}} for possible values and their meaning.
 #' @param plot logical. If \code{TRUE} a Shewhart chart is plotted.
 #' @param ... further arguments are ignored.
 #'
