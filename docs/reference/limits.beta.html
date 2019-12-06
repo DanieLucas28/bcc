@@ -32,7 +32,7 @@
 
 <meta property="og:title" content="limits.beta — limits.beta" />
 
-<meta property="og:description" content="modified qcc functions" />
+<meta property="og:description" content="These functions are used to compute the upper and lower control limits." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -101,24 +101,36 @@
 
     <div class="ref-description">
     
-    <p>modified qcc functions</p>
+    <p>These functions are used to compute the upper and lower control limits.</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>limits.beta</span>(<span class='no'>center</span>, <span class='no'>std.dev</span>, <span class='no'>sizes</span>, <span class='no'>conf</span>)</pre>
+    <pre class="usage"><span class='fu'>limits.beta.prop</span>(<span class='no'>center</span>, <span class='no'>std.dev</span>, <span class='no'>sizes</span>, <span class='no'>conf</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>center, std.dev, conf</th>
-      <td><p>A number</p></td>
+      <th>center</th>
+      <td><p>sample/group center statistic.</p></td>
+    </tr>
+    <tr>
+      <th>std.dev</th>
+      <td><p>within group standard deviation.</p></td>
     </tr>
     <tr>
       <th>sizes</th>
-      <td><p>Numeric vector</p></td>
+      <td><p>sample sizes.</p></td>
+    </tr>
+    <tr>
+      <th>conf</th>
+      <td><p>a numeric value used t o comput control limits, specifying the confidence level (0 &lt; conf &lt; 1)</p></td>
     </tr>
     </table>
+    
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <p>modified qcc functions</p>
     
 
   </div>
@@ -126,7 +138,9 @@
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
       <li><a href="#arguments">Arguments</a></li>
-                </ul>
+      
+      <li><a href="#details">Details</a></li>
+          </ul>
 
   </div>
 </div>
