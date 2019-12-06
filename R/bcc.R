@@ -23,7 +23,7 @@
 #' @param confidence.level a numeric value between 0 and 1 specifying the confidence level of the computed probability limits.
 #' @param rules a value or a vector of values specifying the rules to apply to the chart. See \code{\link{qccRules}} for possible values and their meaning.
 #' @param plot logical. If \code{TRUE} a Shewhart chart is plotted.
-#' @param ...
+#' @param ... further arguments are ignored.
 #'
 #' @references SANT'ANNA, Ângelo M. O; CATEN, Carla Schwengberten. Beta control charts for monitoring fraction data. Expert Systems With Applications, p. 10236-10243. 1 set. 2012.
 #' @references Scrucca, L. (2004). qcc: an R package for quality control charting and statistical process control. \emph{R News} 4/1, 11-17.
@@ -33,7 +33,7 @@
 bcc<-function(data, type = c("1", "2"),
               sizes, center, std.dev, limits, data.name, labels, newdata, newsizes,
               newdata.name, newlabels, nsigmas = 3, confidence.level=0.9, rules = shewhart.rules,
-              plot = TRUE){
+              plot = TRUE, ...){
 
   res <- type
 
