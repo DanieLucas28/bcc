@@ -15,6 +15,8 @@ bcc(data, type = c("1", "2"), sizes, center, std.dev, limits, data.name,
 
 \item{sizes}{a value or a vector of values specifying the sample sizes associated with each group. If data is continuous this parameter should be ignored}
 
+\item{center}{a value specifying the center of group statistics or the ''target'' value of the process.}
+
 \item{std.dev}{a value or an available method specifying the within-group standard deviation(s) of the process.}
 
 \item{limits}{a two-values vector specifying control limits.}
@@ -35,7 +37,7 @@ bcc(data, type = c("1", "2"), sizes, center, std.dev, limits, data.name,
 
 \item{confidence.level}{a numeric value between 0 and 1 specifying the confidence level of the computed probability limits.}
 
-\item{rules}{a value or a vector of values specifying the rules to apply to the chart. See \code{\link{qccRules}} for possible values and their meaning.}
+\item{rules}{a value or a vector of values specifying the rules to apply to the chart. See \code{\link{https://luca-scr.github.io/qcc/reference/rules.html}} for possible values and their meaning.}
 
 \item{plot}{logical. If \code{TRUE} a Shewhart chart is plotted.}
 
