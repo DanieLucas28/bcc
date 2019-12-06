@@ -2,10 +2,23 @@
 % Please edit documentation in R/sd.beta.r
 \name{sd.beta}
 \alias{sd.beta}
+\alias{sd.beta.prop}
 \title{sd.beta}
 \usage{
-sd.beta(data, sizes, ...)
+sd.beta.prop(data, sizes, std.dev, ...)
+}
+\arguments{
+\item{data}{the observed data values.}
+
+\item{sizes}{sample sizes}
+
+\item{...}{further arguments are ignored.}
+
+\item{std.dev}{within group standard deviation.}
 }
 \description{
+These functions are used to compute statistics required by the p chart.
+}
+\details{
 modified qcc functions
 }

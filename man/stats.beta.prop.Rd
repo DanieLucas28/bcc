@@ -4,8 +4,16 @@
 \alias{stats.beta.prop}
 \title{stats.beta.prop}
 \usage{
-stats.beta.prop(data, sizes)
+stats.beta.prop(data,sizes)
+}
+\arguments{
+\item{data}{the observed data values.}
+
+\item{sizes}{sample sizes}
 }
 \description{
+These functions are used to compute statistics required by the p chart.
+}
+\details{
 modified qcc functions
 }

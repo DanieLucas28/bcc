@@ -6,6 +6,16 @@
 \usage{
 sd.beta.prop(data, sizes, std.dev)
 }
+\arguments{
+\item{data}{the observed data values.}
+
+\item{sizes}{sample sizes}
+
+\item{std.dev}{within group standard deviation.}
+}
 \description{
+These functions are used to compute statistics required by the p chart.
+}
+\details{
 modified qcc functions
 }

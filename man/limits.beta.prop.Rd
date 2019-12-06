@@ -2,10 +2,23 @@
 % Please edit documentation in R/limits.beta.prop.r
 \name{limits.beta.prop}
 \alias{limits.beta.prop}
-\title{limits.beta.prop}
+\title{Limits for continuos data
+
+modified qcc functions}
 \usage{
 limits.beta.prop(center, std.dev, sizes, conf, ...)
 }
+\arguments{
+\item{center}{sample/group center statistic.}
+
+\item{std.dev}{within group standard deviation.}
+
+\item{sizes}{sample sizes.}
+
+\item{conf}{a numeric value used t o comput control limits, specifying the confidence level (if 0 < conf < 1)}
+
+\item{...}{further arguments are ignored.}
+}
 \description{
-modified qcc functions
+These functions are used to compute the upper and lower control limits.
 }

@@ -6,6 +6,14 @@
 \usage{
 stats.beta(data, sizes)
 }
+\arguments{
+\item{data}{the observed data values.}
+
+\item{sizes}{sample sizes}
+}
 \description{
+These functions are used to compute statistics required by the p chart.
+}
+\details{
 modified qcc functions
 }

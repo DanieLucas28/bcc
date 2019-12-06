@@ -1,10 +1,15 @@
-#' limits.beta.prop
+#'@title Limits for continuos data
 #'
 #' modified qcc functions
-#'
-#'
-#'
-#' @export limits.beta.prop
+#'@description These functions are used to compute the upper and lower control limits.
+#'@param center sample/group center statistic.
+#'@param std.dev within group standard deviation.
+#'@param sizes sample sizes.
+#'@param conf a numeric value used t o comput control limits, specifying the confidence level (if 0 < conf < 1)
+#'@param ... further arguments are ignored.
+#'@usage limits.beta.prop(center, std.dev, sizes, conf, ...)
+#'@export limits.beta.prop
+
 
 limits.beta.prop <- function(center, std.dev, sizes, conf, ...)
 {
