@@ -2,10 +2,9 @@
 % Please edit documentation in R/limits.beta.r
 \name{limits.beta}
 \alias{limits.beta}
-\alias{limits.beta.prop}
 \title{limits.beta}
 \usage{
-limits.beta.prop(center, std.dev, sizes, conf)
+limits.beta(center, std.dev, sizes, conf)
 }
 \arguments{
 \item{center}{sample/group center statistic.}

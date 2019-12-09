@@ -7,6 +7,7 @@ Authors@R:
               person("Daniel", "Cerqueira", role = c("aut", "cre"),
                      email = "danielcerqueira@live.com"))
 Description: Applies beta control charts to defined values, using qcc package with new beta control limits. Thanks to Luca Scrucca for the qcc package.
+Depends: R (>= 2.10)
 License: GPL
 Encoding: UTF-8
 LazyData: true

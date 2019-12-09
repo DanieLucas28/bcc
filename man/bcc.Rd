@@ -37,7 +37,7 @@ bcc(data, type = c("1", "2"), sizes, center, std.dev, limits, data.name,
 
 \item{confidence.level}{a numeric value between 0 and 1 specifying the confidence level of the computed probability limits.}
 
-\item{rules}{a value or a vector of values specifying the rules to apply to the chart. See \link{https://luca-scr.github.io/qcc/reference/rules.html} for possible values and their meaning.}
+\item{rules}{a value or a vector of values specifying the rules to apply to the chart. See \link[qcc]{shewhart.rules} for possible values and their meaning.}
 
 \item{plot}{logical. If \code{TRUE} a Shewhart chart is plotted.}
 
@@ -47,8 +47,8 @@ bcc(data, type = c("1", "2"), sizes, center, std.dev, limits, data.name,
 p-Charts and np-Charts are commonly used in monitoring variables of the fraction type and these charts assume that the monitored variables are binomially distributed. The Beta Chart presents the control limits based on the Beta probability distribution. It was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the control charts analyzed for monitoring fraction data.
 }
 \examples{
-load(Drapper1998)
-bcc(data = Drapper1998, type = "2")
+data("Drapper1998data")
+bcc(data = Drapper1998data, type = "2")
 
 
 

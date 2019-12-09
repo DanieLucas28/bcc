@@ -6,9 +6,9 @@
 #'@param std.dev within group standard deviation.
 #'@param sizes sample sizes.
 #'@param conf a numeric value used t o comput control limits, specifying the confidence level (0 < conf < 1)
-#'@usage limits.beta.prop(center, std.dev, sizes, conf)
+#'@usage limits.beta(center, std.dev, sizes, conf)
 #'@export limits.beta
-#'@aliases limits.beta.prop
+
 
 limits.beta <- function(center, std.dev, sizes, conf)
 {

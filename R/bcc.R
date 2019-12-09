@@ -22,7 +22,7 @@
 #' @param newlabels a character vector of labels for each new group defined in the argument \code{newdata}.
 #' @param nsigmas a numeric value specifying the number of sigmas to use for computing control limits. It is ignored when the \code{confidence.level} argument is  provided.
 #' @param confidence.level a numeric value between 0 and 1 specifying the confidence level of the computed probability limits.
-#' @param rules a value or a vector of values specifying the rules to apply to the chart. See \link{https://luca-scr.github.io/qcc/reference/rules.html} for possible values and their meaning.
+#' @param rules a value or a vector of values specifying the rules to apply to the chart. See \link[qcc]{shewhart.rules} for possible values and their meaning.
 #' @param plot logical. If \code{TRUE} a Shewhart chart is plotted.
 #' @param ... further arguments are ignored.
 #'
@@ -32,8 +32,8 @@
 #'
 #'
 #'@examples
-#'load(Drapper1998)
-#'bcc(data = Drapper1998, type = "2")
+#'data("Drapper1998data")
+#'bcc(data = Drapper1998data, type = "2")
 #'
 #'
 #'

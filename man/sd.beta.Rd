@@ -2,10 +2,9 @@
 % Please edit documentation in R/sd.beta.r
 \name{sd.beta}
 \alias{sd.beta}
-\alias{sd.beta.prop}
 \title{sd.beta}
 \usage{
-sd.beta.prop(data, sizes, std.dev, ...)
+sd.beta(data, sizes, ...)
 }
 \arguments{
 \item{data}{the observed data values.}
@@ -13,8 +12,6 @@ sd.beta.prop(data, sizes, std.dev, ...)
 \item{sizes}{sample sizes}
 
 \item{...}{further arguments are ignored.}
-
-\item{std.dev}{within group standard deviation.}
 }
 \description{
 These functions are used to compute statistics required by the p chart.
