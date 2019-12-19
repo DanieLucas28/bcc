@@ -11,7 +11,7 @@ bcc(data, type = c("1", "2"), sizes, center, std.dev, limits, data.name,
 \arguments{
 \item{data}{a data frame, a matrix or a vector containing observed data for the variable to chart. Each row of a data frame or a matrix, and each value of a vector, refers to a sample or ''rationale group''.}
 
-\item{type}{a character string specifying the group statistics to compute. There are two possible types, 1 for discrete data and 2 for continuous data.}
+\item{type}{a character string specifying the group statistics to compute. There are two possible types: 1 for discrete data and 2 for continuous data.}
 
 \item{sizes}{a value or a vector of values specifying the sample sizes associated with each group. If data is continuous this parameter should be ignored}
 
@@ -44,7 +44,7 @@ bcc(data, type = c("1", "2"), sizes, center, std.dev, limits, data.name,
 \item{...}{further arguments are ignored.}
 }
 \description{
-p-Charts and np-Charts are commonly used in monitoring variables of the fraction type and these charts assume that the monitored variables are binomially distributed. The Beta Chart presents the control limits based on the Beta probability distribution. It was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the Shewhart control charts analyzed for monitoring fraction data.
+The Beta Chart presents the control limits based on the Beta probability distribution.  It was can be used for monitoring fraction data from Binomial distribution as replacement of the p-Charts. The Beta Chart was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the Shewhart control charts analyzed for monitoring fraction data.
 }
 \examples{
 data("Drapper1998data")
@@ -54,7 +54,7 @@ bcc(data = Drapper1998data, type = "2")
 
 }
 \references{
-SANT'ANNA, Ângelo M. O; CATEN, Carla Schwengberten. Beta control charts forsave monitoring fraction data. Expert Systems With Applications, p. 10236-10243. 1 set. 2012.
+SANT'ANNA, Ângelo M. O; CATEN, Carla Schwengber ten. Beta control charts forsave monitoring fraction data. Expert Systems With Applications, p. 10236-10243. 1 set. 2012.
 
 Scrucca, L. (2004). qcc: an R package for quality control charting and statistical process control. \emph{R News} 4/1, 11-17.
 }
