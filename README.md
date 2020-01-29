@@ -1,4 +1,4 @@
-# bcc
+# Beta Control Charts (bcc)
 
 
 An [R](https://www.r-project.org/) package for **quality control charting using beta control charts**.
