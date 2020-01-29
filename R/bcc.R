@@ -1,6 +1,6 @@
 #' Beta Control Charts
-#'
-#' The Beta Chart presents the control limits based on the Beta probability distribution.  It was can be used for monitoring fraction data from Binomial distribution as replacement of the p-Charts. The Beta Chart was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the Shewhart control charts analyzed for monitoring fraction data.
+#' @aliases bcc
+#' @description The Beta Chart presents the control limits based on the Beta probability distribution.  It was can be used for monitoring fraction data from Binomial distribution as replacement of the p-Charts. The Beta Chart was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the Shewhart control charts analyzed for monitoring fraction data.
 #'
 #'
 #'
@@ -9,7 +9,7 @@
 #' @import methods
 #' @import stats
 #' @param data a data frame, a matrix or a vector containing observed data for the variable to chart. Each row of a data frame or a matrix, and each value of a vector, refers to a sample or ''rationale group''.
-#' @param type a character string specifying the group statistics to compute. There are two possible types: \code{beta} for discrete data and \code{beta.p} for continuous data.
+#' @param type a character string specifying the group statistics to compute. There are two possible types: \code{1} for discrete data and \code{2} for continuous data.
 #' @param center a value specifying the center of group statistics or the ''target'' value of the process.
 #' @param sizes a value or a vector of values specifying the sample sizes associated with each group. If data is continuous this parameter should be ignored
 #' @param std.dev a value or an available method specifying the within-group standard deviation(s) of the process.

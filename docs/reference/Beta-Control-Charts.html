@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Beta Control Charts — bcc • bcc</title>
+<title>Beta Control Charts — Beta Control Charts • bcc</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@
 
 
 
-<meta property="og:title" content="Beta Control Charts — bcc" />
+<meta property="og:title" content="Beta Control Charts — Beta Control Charts" />
 
 <meta property="og:description" content="The Beta Chart presents the control limits based on the Beta probability distribution.  It was can be used for monitoring fraction data from Binomial distribution as replacement of the p-Charts. The Beta Chart was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the Shewhart control charts analyzed for monitoring fraction data." />
 <meta name="twitter:card" content="summary" />
@@ -96,7 +96,7 @@
     <div class="page-header">
     <h1>Beta Control Charts</h1>
     
-    <div class="hidden name"><code>bcc.Rd</code></div>
+    <div class="hidden name"><code>Beta-Control-Charts.Rd</code></div>
     </div>
 
     <div class="ref-description">
@@ -118,7 +118,7 @@
     </tr>
     <tr>
       <th>type</th>
-      <td><p>a character string specifying the group statistics to compute. There are two possible types: <code>1</code> for discrete data and <code>2</code> for continuous data.</p></td>
+      <td><p>a character string specifying the group statistics to compute. There are two possible types: <code>beta</code> for discrete data and <code>beta.p</code> for continuous data.</p></td>
     </tr>
     <tr>
       <th>sizes</th>
@@ -190,7 +190,7 @@
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://www.rdocumentation.org/packages/utils/topics/data'>data</a></span>(<span class='st'>"Drapper1998data"</span>)
-<span class='fu'>bcc</span>(<span class='kw'>data</span> <span class='kw'>=</span> <span class='no'>Drapper1998data</span>, <span class='kw'>type</span> <span class='kw'>=</span> <span class='st'>"2"</span>)</div><div class='img'><img src='bcc-1.png' alt='' width='700' height='433' /></div><div class='output co'>#&gt; List of 11
+<span class='fu'>bcc</span>(<span class='kw'>data</span> <span class='kw'>=</span> <span class='no'>Drapper1998data</span>, <span class='kw'>type</span> <span class='kw'>=</span> <span class='st'>"2"</span>)</div><div class='img'><img src='Beta-Control-Charts-1.png' alt='' width='700' height='433' /></div><div class='output co'>#&gt; List of 11
 #&gt;  $ call            : language qcc(data = data, type = "beta.p", center = center, std.dev = std.dev, limits = limits,      data.name = data.name| __truncated__ ...
 #&gt;  $ type            : chr "beta.p"
 #&gt;  $ data.name       : chr "data"
