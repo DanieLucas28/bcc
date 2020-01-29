@@ -9,7 +9,7 @@
 #' @import methods
 #' @import stats
 #' @param data a data frame, a matrix or a vector containing observed data for the variable to chart. Each row of a data frame or a matrix, and each value of a vector, refers to a sample or ''rationale group''.
-#' @param type a character string specifying the group statistics to compute. There are two possible types: 1 for discrete data and 2 for continuous data.
+#' @param type a character string specifying the group statistics to compute. There are two possible types: \code{beta} for discrete data and \code{beta.p} for continuous data.
 #' @param center a value specifying the center of group statistics or the ''target'' value of the process.
 #' @param sizes a value or a vector of values specifying the sample sizes associated with each group. If data is continuous this parameter should be ignored
 #' @param std.dev a value or an available method specifying the within-group standard deviation(s) of the process.
@@ -56,10 +56,10 @@ bcc<-function(data, type = c("1", "2"),
 
   if (type == 2){
 
-    qcc(data = data, type = "beta.prop",
+    qcc(data = data, type = "beta.p",
         center = center, std.dev = std.dev, limits = limits, data.name = data.name, labels = labels, newdata = newdata, newsizes = newsizes,
         newdata.name = newdata.name, newlabels = newlabels, nsigmas = 3, confidence.level = confidence.level, rules = shewhart.rules,
-        plot = TRUE, title = paste("Beta Chart\nfor", data.name) ,...)
+        plot = TRUE, ...)
 
   }
 }

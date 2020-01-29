@@ -1,4 +1,4 @@
-#' limits.beta
+#'@title Limits for discrete data
 #'
 #' modified qcc functions
 #'@description These functions are used to compute the upper and lower control limits.

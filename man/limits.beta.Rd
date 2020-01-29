@@ -2,7 +2,9 @@
 % Please edit documentation in R/limits.beta.r
 \name{limits.beta}
 \alias{limits.beta}
-\title{limits.beta}
+\title{Limits for discrete data
+
+modified qcc functions}
 \usage{
 limits.beta(center, std.dev, sizes, conf)
 }
@@ -17,7 +19,4 @@ limits.beta(center, std.dev, sizes, conf)
 }
 \description{
 These functions are used to compute the upper and lower control limits.
-}
-\details{
-modified qcc functions
 }

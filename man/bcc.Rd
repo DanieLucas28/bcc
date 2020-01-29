@@ -11,7 +11,7 @@ bcc(data, type = c("1", "2"), sizes, center, std.dev, limits, data.name,
 \arguments{
 \item{data}{a data frame, a matrix or a vector containing observed data for the variable to chart. Each row of a data frame or a matrix, and each value of a vector, refers to a sample or ''rationale group''.}
 
-\item{type}{a character string specifying the group statistics to compute. There are two possible types: 1 for discrete data and 2 for continuous data.}
+\item{type}{a character string specifying the group statistics to compute. There are two possible types: \code{beta} for discrete data and \code{beta.p} for continuous data.}
 
 \item{sizes}{a value or a vector of values specifying the sample sizes associated with each group. If data is continuous this parameter should be ignored}
 

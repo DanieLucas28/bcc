@@ -1,13 +1,13 @@
-#' stats.beta.prop
+#' stats.beta.p
 #'
 #' modified qcc functions
 #'@description These functions are used to compute statistics required by the p chart.
 #'@param data the observed data values.
 #'@param sizes sample sizes
-#'@usage stats.beta.prop(data,sizes)
-#' @export stats.beta.prop
+#'@usage stats.beta.p(data,sizes)
+#'@export stats.beta.p
 
-stats.beta.prop <- function(data, sizes)
+stats.beta.p <- function(data, sizes)
 {
   statistics <- as.vector(data)
   center <- mean(statistics)

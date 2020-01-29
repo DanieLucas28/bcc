@@ -7,11 +7,11 @@
 #'@param sizes sample sizes.
 #'@param conf a numeric value used t o comput control limits, specifying the confidence level (if 0 < conf < 1)
 #'@param ... further arguments are ignored.
-#'@usage limits.beta.prop(center, std.dev, sizes, conf, ...)
-#'@export limits.beta.prop
+#'@usage limits.beta.p(center, std.dev, sizes, conf, ...)
+#'@export limits.beta.p
 
 
-limits.beta.prop <- function(center, std.dev, sizes, conf, ...)
+limits.beta.p <- function(center, std.dev, sizes, conf, ...)
 {
   if (conf >= 1)
   {

@@ -1,11 +1,11 @@
 #' stats.beta
 #'
 #' modified qcc functions
-#' @description These functions are used to compute statistics required by the p chart.
-#' @usage stats.beta(data, sizes)
+#'@description These functions are used to compute statistics required by the p chart.
+#'@usage stats.beta(data, sizes)
 #'@param data the observed data values.
 #'@param sizes sample sizes
-#' @export stats.beta
+#'@export stats.beta
 
 stats.beta <- function(data, sizes)
 {

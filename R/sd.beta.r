@@ -6,7 +6,7 @@
 #'@param sizes sample sizes
 #'@param ... further arguments are ignored.
 #'@usage sd.beta(data, sizes, ...)
-#' @export sd.beta
+#'@export sd.beta
 
 
 sd.beta <- function(data, sizes, ...)
