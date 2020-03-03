@@ -1,0 +1,67 @@
+---
+title: "Short guide to bcc features"
+author: "Daniel Lucas Cerqueira"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Short guide to bcc features}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(bcc)
+```
+
+# Introduction
+
+`qcc` is a package for **statistical process control and control charts** built based on the `qcc` package, with new functions allowing the use of beta control charts.
+
+This package allows the user to:
+
+- build beta control charts
+
+As the package uses the `qcc` package as the basis for building the graphics, all `qcc` functions and utilities also work on `bcc`. For more informations please consider visiting https://luca-scr.github.io/qcc/.
+
+#Application
+
+You can use `bcc` in two basic ways:
+
+- discrete data representing the sample size using `type = 1`;
+
+- continuous data without sample size with values in the range between [0.1] using `type = 2`; you can make a ratio between the data to be analyzed for example.
+
+
+#Beta Charts
+
+## Beta Chart for discrete data
+
+```{r}
+data("Montgomery2005")
+bcc(data = Montgomery2005$`Peças defeituosas`, sizes=Montgomery2005$`Tamanho da amostra`, type = "1")
+```
+
+##Beta chart for continuos data
+
+```{r}
+data("Drapper1998data")
+bcc(data = Drapper1998data, type = "2")
+```
+
+# References
+
+Montgomery, D.C. (2009) *Introduction to Statistical Quality Control*, 6th ed. New York: John Wiley & Sons.
+
+Scrucca, L. (2004) [qcc: an R package for quality control charting and
+statistical process control](http://www.stat.unipg.it/luca/misc/Rnews_2004-1-pag11-17.pdf). *R News* 4/1, 11-17.
+
+SANT'ANNA, Ângelo M. O; CATEN, Carla Schwengber ten. *Beta control charts forsave monitoring fraction data.* Expert Systems With Applications, p. 10236-10243. 1 set. 2012.
+
+----
+
