@@ -35,7 +35,7 @@
 #'data("Drapper1998data")
 #'bcc(data = Drapper1998data, type = "2")
 #'data("Montgomery2005")
-#'bcc(data = Montgomery2005$`Peças defeituosas`, sizes=Montgomery2005$`Tamanho da amostra`, type = "1")
+#'bcc(data=Montgomery2005$Defective, sizes = Montgomery2005$Sample, type=1)
 #'
 #'
 

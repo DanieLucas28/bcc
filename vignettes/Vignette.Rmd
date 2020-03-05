@@ -44,7 +44,7 @@ You can use `bcc` in two basic ways:
 
 ```{r}
 data("Montgomery2005")
-bcc(data = Montgomery2005$`Peças defeituosas`, sizes=Montgomery2005$`Tamanho da amostra`, type = "1")
+bcc(data=Montgomery2005$Defective, sizes = Montgomery2005$Sample, type=1)
 ```
 
 ##Beta chart for continuos data

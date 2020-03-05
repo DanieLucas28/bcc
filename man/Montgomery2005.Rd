@@ -12,8 +12,8 @@ Montgomery2005 consists of a data set of a manufacturing process offrozen orange
 \format{
   A data frame with 30 observations on the following 2 variables.
   \describe{
-    \item{Tamanho da amostra}{a numeric vector}
-    \item{Peças defeituosas}{a numeric vector}
+    \item{Sample}{a numeric vector}
+    \item{Defective}{a numeric vector}
   }
 }
 %\details{}
