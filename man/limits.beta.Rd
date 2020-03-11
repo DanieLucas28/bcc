@@ -20,3 +20,7 @@ limits.beta(center, std.dev, sizes, conf)
 \description{
 These functions are used to compute the upper and lower control limits.
 }
+\examples{
+data(montgomery2005)
+limits.beta(center = 0.2313333, std.dev = 0.421685, sizes = Montgomery2005$Sample, conf = 0.9)
+}

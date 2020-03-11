@@ -17,3 +17,7 @@ These functions are used to compute statistics required by the p chart.
 \details{
 modified qcc functions
 }
+\examples{
+data(Drapper1998data)
+sd.beta.p(Drapper1998data)
+}

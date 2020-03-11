@@ -6,6 +6,11 @@
 #'@param data the observed data values.
 #'@param sizes sample sizes
 #'@export stats.beta
+#'
+#'@examples
+#'data(montgomery2005)
+#'stats.beta(Montgomery2005$Defective, Montgomery2005$Sample)
+
 
 stats.beta <- function(data, sizes)
 {

@@ -6,6 +6,10 @@
 #'@param sizes sample sizes
 #'@usage stats.beta.p(data,sizes)
 #'@export stats.beta.p
+#'
+#'@examples
+#'data(Drapper1998data)
+#'sd.beta.p(Drapper1998data)
 
 stats.beta.p <- function(data, sizes)
 {

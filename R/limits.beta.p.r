@@ -9,6 +9,9 @@
 #'@param ... further arguments are ignored.
 #'@usage limits.beta.p(center, std.dev, sizes, conf, ...)
 #'@export limits.beta.p
+#'
+#'@examples
+#'limits.beta.p(center = 0.9989597, std.dev = 0.0009362578, conf = 0.9)
 
 
 limits.beta.p <- function(center, std.dev, sizes, conf, ...)

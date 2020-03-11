@@ -8,6 +8,11 @@
 #'@param conf a numeric value used t o comput control limits, specifying the confidence level (0 < conf < 1)
 #'@usage limits.beta(center, std.dev, sizes, conf)
 #'@export limits.beta
+#'
+#'@examples
+#'data(montgomery2005)
+#'limits.beta(center = 0.2313333, std.dev = 0.421685, sizes = Montgomery2005$Sample, conf = 0.9)
+
 
 
 limits.beta <- function(center, std.dev, sizes, conf)

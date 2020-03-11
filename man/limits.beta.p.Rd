@@ -22,3 +22,6 @@ limits.beta.p(center, std.dev, sizes, conf, ...)
 \description{
 These functions are used to compute the upper and lower control limits.
 }
+\examples{
+limits.beta.p(center = 0.9989597, std.dev = 0.0009362578, conf = 0.9)
+}

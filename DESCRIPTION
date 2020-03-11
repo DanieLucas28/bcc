@@ -1,12 +1,14 @@
 Package: bcc
 Title: Beta Control Charts
-Version: 1.1
+Version: 1.2
 Authors@R: 
      c(person("Ângelo", "Santanna", role = "aut",
                      email = "angelo.santanna@ufba.br"),
               person("Daniel", "Cerqueira", role = c("aut", "cre"),
-                     email = "danielcerqueira@live.com"))
-Description: Applies beta control charts to defined values, using qcc package with new beta control limits. Thanks to Luca Scrucca for the qcc package.
+                     email = "danielcerqueira@live.com"),
+                     person("Luca", "Scrucca", role = c("ctb"),
+                     email = "luca.scrucca@unipg.it"))
+Description: Applies beta control charts to defined values, using 'qcc' package with new beta control limits.
 Depends: R (>= 2.10)
 License: GPL
 Encoding: UTF-8

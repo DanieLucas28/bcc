@@ -19,3 +19,7 @@ These functions are used to compute statistics required by the p chart.
 \details{
 modified qcc functions
 }
+\examples{
+data(montgomery2005)
+sd.beta(Montgomery2005$Defective, Montgomery2005$Sample)
+}

@@ -7,6 +7,10 @@
 #'@param ... further arguments are ignored.
 #'@usage sd.beta(data, sizes, ...)
 #'@export sd.beta
+#'
+#'@examples
+#'data(montgomery2005)
+#'sd.beta(Montgomery2005$Defective, Montgomery2005$Sample)
 
 
 sd.beta <- function(data, sizes, ...)
