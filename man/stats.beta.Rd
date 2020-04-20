@@ -11,13 +11,16 @@ stats.beta(data, sizes)
 
 \item{sizes}{sample sizes}
 }
+\value{
+The function \code{stats.beta} returns a list with components \code{statistics} and \code{center}.
+}
 \description{
-These functions are used to compute statistics required by the p chart.
+These functions are used to compute statistics required by the beta chart.
 }
 \details{
-modified qcc functions
+Provides a list containing the centerline of the chart \code{pbar} and the data manipulated to be used in the construction of the chart \code{data/sizes}.
 }
 \examples{
-data(montgomery2005)
+data(Montgomery2005)
 stats.beta(Montgomery2005$Defective, Montgomery2005$Sample)
 }

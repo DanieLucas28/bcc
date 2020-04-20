@@ -13,13 +13,16 @@ sd.beta.p(data, sizes, std.dev)
 
 \item{std.dev}{within group standard deviation.}
 }
+\value{
+The function \code{sd.beta.p} returns \code{sd} the standard deviation of the statistic charted.
+}
 \description{
-These functions are used to compute statistics required by the p chart.
+These functions are used to compute statistics required by the beta chart.
 }
 \details{
-modified qcc functions
+Performs the calculation of the standard deviation \code{sd} that will be used in the construction of the control chart.
 }
 \examples{
-data(montgomery2005)
+data(Drapper1998data)
 sd.beta.p(Drapper1998data)
 }

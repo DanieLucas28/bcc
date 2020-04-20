@@ -2,9 +2,7 @@
 % Please edit documentation in R/limits.beta.p.r
 \name{limits.beta.p}
 \alias{limits.beta.p}
-\title{Limits for continuos data
-
-modified qcc functions}
+\title{Limits for continuos data}
 \usage{
 limits.beta.p(center, std.dev, sizes, conf, ...)
 }
@@ -19,8 +17,11 @@ limits.beta.p(center, std.dev, sizes, conf, ...)
 
 \item{...}{further arguments are ignored.}
 }
+\value{
+The function \code{limits.beta.p} returns a matrix with lower and upper control limits.
+}
 \description{
-These functions are used to compute the upper and lower control limits.
+These function are used to compute the upper and lower control limits.
 }
 \examples{
 limits.beta.p(center = 0.9989597, std.dev = 0.0009362578, conf = 0.9)

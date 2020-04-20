@@ -11,11 +11,14 @@ stats.beta.p(data,sizes)
 
 \item{sizes}{sample sizes}
 }
+\value{
+The function \code{stats.beta.p} returns a list with components \code{statistics} and \code{center}.
+}
 \description{
-These functions are used to compute statistics required by the p chart.
+These functions are used to compute statistics required by the beta chart.
 }
 \details{
-modified qcc functions
+Provides a list containing the center line of the graph \code{center} and the data to be used in the construction of the chart \code{statistics}.
 }
 \examples{
 data(Drapper1998data)

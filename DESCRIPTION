@@ -1,6 +1,6 @@
 Package: bcc
 Title: Beta Control Charts
-Version: 1.2
+Version: 1.3
 Authors@R: 
      c(person("Ângelo", "Santanna", role = "aut",
                      email = "angelo.santanna@ufba.br"),
@@ -8,8 +8,9 @@ Authors@R:
                      email = "danielcerqueira@live.com"),
                      person("Luca", "Scrucca", role = c("ctb"),
                      email = "luca.scrucca@unipg.it"))
-Description: Applies beta control charts to defined values, using 'qcc' package with new beta control limits.
+Description: Applies beta control charts to defined values, using 'qcc' package with new beta control limits. The Beta Chart presents the control limits based on the Beta probability distribution. It was can be used for monitoring fraction data from Binomial distribution as replacement of the p-Charts. The Beta Chart was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the Shewhart control charts analyzed for monitoring fraction data.
 Depends: R (>= 2.10)
+URL: https://danielucas28.github.io/
 License: GPL
 Encoding: UTF-8
 LazyData: true

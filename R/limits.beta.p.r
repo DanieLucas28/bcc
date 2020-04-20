@@ -1,7 +1,7 @@
 #'@title Limits for continuos data
 #'
-#' modified qcc functions
-#'@description These functions are used to compute the upper and lower control limits.
+#'
+#'@description These function are used to compute the upper and lower control limits.
 #'@param center sample/group center statistic.
 #'@param std.dev within group standard deviation.
 #'@param sizes sample sizes.
@@ -9,6 +9,7 @@
 #'@param ... further arguments are ignored.
 #'@usage limits.beta.p(center, std.dev, sizes, conf, ...)
 #'@export limits.beta.p
+#'@return The function \code{limits.beta.p} returns a matrix with lower and upper control limits.
 #'
 #'@examples
 #'limits.beta.p(center = 0.9989597, std.dev = 0.0009362578, conf = 0.9)

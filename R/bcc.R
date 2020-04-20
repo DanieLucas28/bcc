@@ -1,9 +1,8 @@
 #' Beta Control Charts
+#'
+#' The Beta Chart presents the control limits based on the Beta probability distribution.  It was can be used for monitoring fraction data from Binomial distribution as replacement of the p-Charts. The Beta Chart was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the Shewhart control charts analyzed for monitoring fraction data.This package was made based on the qcc package. See \link[qcc]{qcc}.
 #' @aliases bcc
-#' @description The Beta Chart presents the control limits based on the Beta probability distribution.  It was can be used for monitoring fraction data from Binomial distribution as replacement of the p-Charts. The Beta Chart was applied for monitoring the variables in three real studies, and it was compared to the control limits with three schemes. The comparative analysis showed that: (i) Beta approximation to the Binomial distribution was more appropriate with values confined in the [0, 1]- interval; and (ii) the charts proposed were more sensitive to the average run length (ARL), in both in-control and out-of-control processes monitoring. The Beta Charts outperform the Shewhart control charts analyzed for monitoring fraction data.This package was made based on the qcc package. See \link[qcc]{qcc}.
-#'
-#'
-#'
+#' @description Create an object of class \code{'qcc'} to perform statistical quality control. This object may then be used to plot Beta Control Charts.
 #' @export bcc
 #' @import qcc
 #' @import methods
@@ -25,6 +24,7 @@
 #' @param rules a value or a vector of values specifying the rules to apply to the chart. See \link[qcc]{shewhart.rules} for possible values and their meaning.
 #' @param plot logical. If \code{TRUE} a Shewhart chart is plotted.
 #' @param ... further arguments are ignored.
+#' @return Returns an object of class \code{'qcc'}.
 #'
 #'
 #' @references SANT'ANNA, Ângelo M. O; CATEN, Carla Schwengber ten. Beta control charts forsave monitoring fraction data. Expert Systems With Applications, p. 10236-10243. 1 set. 2012.

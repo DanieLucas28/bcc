@@ -13,13 +13,16 @@ sd.beta(data, sizes, ...)
 
 \item{...}{further arguments are ignored.}
 }
+\value{
+The function \code{sd.beta} returns \code{std.dev} the standard deviation of the statistic charted.
+}
 \description{
-These functions are used to compute statistics required by the p chart.
+These functions are used to compute statistics required by the beta chart.
 }
 \details{
-modified qcc functions
+Performs the calculation of the standard deviation \code{std.dev} that will be used in the construction of the control chart.
 }
 \examples{
-data(montgomery2005)
+data(Montgomery2005)
 sd.beta(Montgomery2005$Defective, Montgomery2005$Sample)
 }
